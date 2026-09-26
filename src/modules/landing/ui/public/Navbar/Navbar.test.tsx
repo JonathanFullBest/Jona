@@ -32,7 +32,9 @@ describe('Navbar', () => {
 
     await user.click(screen.getByText('Dirección'));
 
-    expect(screen.getByText(/Honduras, Tegucigalpa, Loarque, mercado perisur\./)).toBeInTheDocument();
+    expect(
+      screen.getByText(/Honduras, Tegucigalpa, Loarque, mercado perisur\./),
+    ).toBeInTheDocument();
     expect(screen.getByRole('link', { name: 'Vamos a google maps' })).toHaveAttribute(
       'href',
       'https://maps.app.goo.gl/z59oC5Qkvp8Lk3xC9',
