@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import './Navbar.css';
-import logo_jona from '../../assets/logo.png';
+import logo_jona from '../../assets/Logo.png';
 import lupa from '../../assets/lupa.png';
 import carrito from '../../assets/carrito.png';
 
