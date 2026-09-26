@@ -1,5 +1,4 @@
-import Navbar from './components/Navbar/Navbar';
-import Dashboard from './components/Dashboard/Dashboard';
+import { Dashboard, Navbar } from '../modules/landing';
 
 const App = () => {
   return (
